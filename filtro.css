@@ -1,11 +1,16 @@
+
+
 input {
   width: 500px;
   height: 40px;
   font-size: 18px;
+  background-color: blanchedalmond;
 }
 
 #lista-de-productos {
-  display: flex
+  display: flex;    /*  se  le agregó ;*/
+  flex-direction: column;
+  align-items: center;
 }
 
 .producto {
@@ -18,7 +23,7 @@ input {
   align-items: center;
 }
 
-.producto img {
+ img {
   width: 70%;
   height: auto
 }

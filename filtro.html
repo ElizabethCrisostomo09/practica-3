@@ -5,20 +5,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="filtro.css">
+  <link rel="stylesheet" href="./filtro.css">
   <title>Filtros en JS</title>
 </head>
 
+<!--Se debe linker correctamente el css y js-->
+<!--Las imagenes deben estar en una carpeta para que se vea ordenado el codigo-->
+
 <body>
 
-  <div>
+  <div clas="producto">
       <input type="text" placeholder="Seleccioná un color o tipo">
       <button>Filtrar</button>
       <h1>Lista de productos </h1>
       <div id="lista-de-productos">
+        <ul >
+          <li >
+          <img src="./assets/bota-azul.jpg">
+          </li>
+
+          <li>
+            <img id="producto" src="./assets/bota-negra.jpg">
+          </li>
+
+          <li>
+            <img src="./assets/taco-negro.jpg">
+          </li>
+
+          <li>
+            <img src="./assets/zapato-rojo.jpg">
+          </li>
+        </ul>
     </div>
   </div>
-  <script src="../filtro.js"></script>
+  <script src="./filtro.js"></script>
 </body>
 
 </html>
